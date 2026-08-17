@@ -77,6 +77,20 @@ let EM3 : Employers = {
 }
 
 
-console.log(EM1);
-console.log(EM2);
-console.log(EM3);
+// console.log(EM1);
+// console.log(EM2);
+// console.log(EM3);
+
+
+
+// Function 
+
+const add = (number1 : number , number2: number):string =>{
+    let AddNumber = number1+number1;
+    if(AddNumber > number1 && AddNumber > number2  ){
+        return "it's larjest Number"
+    }
+    return ` ${number1} `
+}
+
+console.log(add(45,0));
