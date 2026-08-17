@@ -23,3 +23,19 @@ let isPassedSSC: boolean[] = [true, false , true];
 
 let StudentDetasil: (string | number | boolean)[] = ['rumi', true , 56754];
 
+
+
+// Objects 
+
+let CEO: {
+    Name : string,
+    Age : number,
+    Mobile : number,
+    Email : string,
+} = {
+    Name: "Rumi pavrez",
+    Age : 17,
+    Mobile : 8801407794143 ,
+    Email : "xyz@admin.com",
+
+}
