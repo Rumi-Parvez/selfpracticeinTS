@@ -22,3 +22,4 @@ let isPassedSSC: boolean[] = [true, false , true];
 // Array + Union 
 
 let StudentDetasil: (string | number | boolean)[] = ['rumi', true , 56754];
+
