@@ -32,10 +32,51 @@ let CEO: {
     Age : number,
     Mobile : number,
     Email : string,
+    isMarridge? : boolean,
 } = {
     Name: "Rumi pavrez",
     Age : 17,
     Mobile : 8801407794143 ,
     Email : "xyz@admin.com",
+    isMarridge : false,
 
 }
+
+
+
+
+type Employers = {
+    Name : string,
+    Age : number,
+    Mobile : number,
+    Email? : string,
+    isMarridge? : boolean,
+};
+
+
+let EM1 : Employers = {
+    Name: "Rumi pavrez",
+    Age : 17,
+    Mobile : 8801407794143 ,
+    Email : "xyz@admin.com",
+    isMarridge : false,
+}
+
+let EM2 : Employers = {
+    Name: "Hasina",
+    Age : 56,
+    Mobile : 8801407794143 ,
+    isMarridge : false,
+}
+
+let EM3 : Employers = {
+    Name: "khaleda",
+    Age : 6541,
+    Mobile : 8801407794143 ,
+    Email : "xyz@admin.com",
+}
+
+
+console.log(EM1);
+console.log(EM2);
+console.log(EM3);

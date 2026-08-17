@@ -14,4 +14,34 @@ let isPassedSSC = [true, false, true];
 // (string | number | null | boolean | unknown  | undefined)
 // Array + Union 
 let StudentDetasil = ['rumi', true, 56754];
+// Objects 
+let CEO = {
+    Name: "Rumi pavrez",
+    Age: 17,
+    Mobile: 8801407794143,
+    Email: "xyz@admin.com",
+    isMarridge: false,
+};
+let EM1 = {
+    Name: "Rumi pavrez",
+    Age: 17,
+    Mobile: 8801407794143,
+    Email: "xyz@admin.com",
+    isMarridge: false,
+};
+let EM2 = {
+    Name: "Hasina",
+    Age: 56,
+    Mobile: 8801407794143,
+    isMarridge: false,
+};
+let EM3 = {
+    Name: "khaleda",
+    Age: 6541,
+    Mobile: 8801407794143,
+    Email: "xyz@admin.com",
+};
+console.log(EM1);
+console.log(EM2);
+console.log(EM3);
 //# sourceMappingURL=recap.js.map
