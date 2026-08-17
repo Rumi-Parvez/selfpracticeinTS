@@ -51,6 +51,7 @@ type Employers = {
     Mobile : number,
     Email? : string,
     isMarridge? : boolean,
+    roll? : string
 };
 
 
@@ -93,4 +94,22 @@ const add = (number1 : number , number2: number):string =>{
     return ` ${number1} `
 }
 
-console.log(add(45,0));
+// console.log(add(45,0));
+
+let user: Employers = {
+     Name: "Rumi pavrez",
+    Age : 17,
+    Mobile : 8801407794143 ,
+    Email : "xyz@admin.com",
+    isMarridge : false,
+    roll : 'Admin',
+} as const ;
+
+enum rolls {
+    Admin,
+    Modarator,
+    Guste,
+}
+
+
+
