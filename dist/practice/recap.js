@@ -47,10 +47,24 @@ let EM3 = {
 // Function 
 const add = (number1, number2) => {
     let AddNumber = number1 + number1;
-    if (AddNumber > number1 && AddNumber > number2 && number1 === number2) {
+    if (AddNumber > number1 && AddNumber > number2) {
         return "it's larjest Number";
     }
     return ` ${number1} `;
 };
-console.log(add(45, 0));
+// console.log(add(45,0));
+let user = {
+    Name: "Rumi pavrez",
+    Age: 17,
+    Mobile: 8801407794143,
+    Email: "xyz@admin.com",
+    isMarridge: false,
+    roll: 'Admin',
+};
+var rolls;
+(function (rolls) {
+    rolls[rolls["Admin"] = 0] = "Admin";
+    rolls[rolls["Modarator"] = 1] = "Modarator";
+    rolls[rolls["Guste"] = 2] = "Guste";
+})(rolls || (rolls = {}));
 //# sourceMappingURL=recap.js.map
